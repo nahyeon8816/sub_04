@@ -87,50 +87,6 @@ margin-top: 5px;}
 .nav_2 li a:hover{
     color: #6a3f42;
 }
-/*sub 메뉴*/
-#sub{
-    width: 550px;
-    height: 230px;
-    background-color: rgba(255 , 255, 255, 0.4);
-    position: absolute;
-    top: 104px;
-    left: 0;
-    z-index: 99;
-    display: none; /*메뉴 안보이게*/
-}
-
-.sub_menu{
-    width: 600px;
-    margin: 0 auto;
-}
-.sub_menu .menu{
-    float: left;
-    width:22%;
-    text-align: center;
-    }
-
-.sub_menu .menu li a{
-    display: block;
-    font-size: 14px;
-    font-family: 'Noto Sans KR', sans-serif;
-    padding: 15px 0;
-    text-align: center;
-    font-weight: 400;
-}
-
-
-.menu{width: 30%;}
-.menu li a{
-    color: #80454a;
-}
-
-.main_nav li:hover #sub{
-    display: block;
-}
-.menu li a:hover{
-    color: #6a3f42;
-    font-weight: bold;
-}
 /*메인배너*/
 #banner img{
     width: 100%;
